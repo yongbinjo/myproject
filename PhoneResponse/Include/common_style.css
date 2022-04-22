@@ -1,0 +1,453 @@
+﻿
+body, input, textarea, select, td {
+    font-family: 맑은 고딕;
+    font-size: 12px;
+    line-height: 120%;
+    color: #606060;
+}
+}
+
+.genClass  
+{
+	font-family:맑은 고딕; font-size:12px; 
+	line-height:120%; color:Gray;
+}
+
+.geninput  
+{
+	font-family:맑은 고딕; font-size:12px; 
+	padding-left:2px;
+	line-height:120%; color:Gray;
+	border:1px dotted gray;
+	background-color:#fcecec;
+	width: 76px;
+}
+
+.geninputOnline  
+{
+	font-family:맑은 고딕; font-size:12px; 
+	padding-left:2px;
+	line-height:120%; color:Gray;
+	border:1px dotted gray;
+	background-color:#f0f0fc;
+	width: 76px;
+}
+
+.OnlineText  
+{
+	font-family:맑은 고딕;
+	font-size:12px; 
+	padding-left:2px;
+	line-height:120%;
+	color:Gray;
+	vertical-align:middle;
+	border:1px solid gray;
+	background-color:#f0f0fc;
+	width: 120px;
+	height:16px;
+}
+
+.OnlineRadio  
+{
+	font-family:맑은 고딕; font-size:12px; 
+	line-height:120%;
+	color:Gray;
+	margin-left:0px;
+	border:0px dotted gray;
+	background-color:#F0F3F5;
+	/* background-color:#FAF9F6;*/
+	vertical-align:middle;
+}
+
+.genselect  
+{
+	font-family:맑은 고딕; 
+	font-size:12px; 
+	line-height:120%; 
+	color:Gray;
+	border:1px dotted gray;
+	background-color:#fcecec;
+	width: 76px;
+}
+
+.tnuminput   { font-family:맑은 고딕; font-size:12px; background-color: #fcecec; border: 1px dotted gray;margin-left:2px;text-align:right;margin-right:2px; }
+
+.genradio  
+{
+	font-family:맑은 고딕; font-size:12px; 
+	line-height:120%;
+	color:Gray;
+	margin-left:0px;
+	border:0px dotted gray;
+	background-color:#f0f0fc;
+	/* background-color:#FAF9F6;*/
+	vertical-align:middle;
+}
+
+
+.button_black
+{
+	font-family:맑은 고딕;
+	font-size:12px; 
+	height:23px;
+	color:#ffffff;
+	border:2px solid gray;
+	border-left-color:#ececec;
+	border-top-color:#ececec;
+	background-color:#000000;
+}
+
+.button_gray
+{
+	font-family:맑은 고딕;
+	font-size:10px; 
+	height:20px;
+	color:#ffffff;
+	border:2px solid gray;
+	border-left-color:#ececec;
+	border-top-color:#ececec;
+	background-color:green;
+}
+
+.button_green
+{
+	font-family:맑은 고딕;
+	font-size:12px; 
+	height:20px;
+	color:#ffffff;
+	border:2px solid gray;
+	border-left-color:#ececec;
+	border-top-color:#ececec;
+	background-color:green;
+}
+
+
+.button_gen
+{
+	font-family:맑은 고딕;
+	font-size:12px; 
+	height:20px;
+}
+
+.subTitle
+{
+    
+    /*
+    float: left;
+    position: inherit;
+    */
+    display:table-cell;
+	border:2px solid #FF8C00;
+    border-left:2px solid #FFE2BF;
+    border-top:2px solid #FFD68C;
+    padding-top:2px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:2px;
+	font-family:맑은 고딕;
+	font-size:16px;
+    font-weight:bold;
+	color:blue;
+	height:20px;
+	background-color:#ececec;
+}
+.divlabelbox
+{
+    float:left;
+    cursor:pointer;
+    width:100px;
+    height:18px;
+    vertical-align:middle; 
+    padding-left:3px;
+	font-family:맑은 고딕;
+	font-size:12px; 
+	line-height:120%;
+	color:Gray;
+	border:1px dotted gray;
+	background-color:#fcecec;
+}
+
+
+.divlabelboxOnline
+{
+    float:left;
+    cursor:pointer;
+    width:100px;
+    height:18px;
+    vertical-align:middle; 
+    padding-left:3px;
+	font-family:맑은 고딕;
+	font-size:12px; 
+	line-height:120%;
+	color:Gray;
+	border:1px dotted gray;
+	background-color:#f0f0fc;
+}
+
+.divlabelboxRight
+{
+    float: right;
+    width:100px;
+    height:18px;
+    vertical-align:middle; 
+    padding-left:3px;
+	font-family:맑은 고딕;
+	font-size:12px; 
+	line-height:120%;
+	color:Gray;
+	border:1px dotted gray;
+	background-color:#fcecec;
+}
+
+table.mytable {
+ border:1px solid lightgray;
+ border-collapse:collapse;
+ border-spacing:0px;
+ padding:0px;
+ /*
+ border-width: 1px;
+ border-spacing:0px;
+ border-style: outset;
+ border-color: #ececec;
+ border-collapse: collapse;
+ display:table;
+ */
+}
+
+
+table.mytable td {
+ border:1px solid lightgray;
+ height:22px;
+ padding-left:3px;
+ padding-right:4px;
+ vertical-align:middle;
+ /* 
+ vertical-align:middle;
+ border-width: 1px;
+ padding: 1px;
+ border-style: outset;
+ border-color: #ececec;
+ display: table-cell;
+ -moz-border-radius:0;
+  height:22px; 
+*/
+}
+
+table.mytableCal {
+ border-width: 1px;
+ border-spacing:0px;
+ border-style: outset;
+ border-color: #ececec;
+ border-collapse: collapse;
+ display: table;
+}
+
+table.mytableCal td {
+ vertical-align:middle;
+ border-width: 1px;
+ padding: 1px;
+ border-style: outset;
+ border-color: #ececec;
+ display: table-cell;
+ -moz-border-radius:0;
+}
+
+
+table.mytableNone {
+ border:1px solid white;
+ border-collapse:collapse;
+ border-spacing:0px;
+}
+
+table.mytableNone td {
+ border:1px solid white;
+ height:22px;
+ padding-left:3px;
+ padding-right:4px;
+ vertical-align:middle;
+}
+
+table.mytableSurvey 
+{
+ border:1px solid white;
+ border-collapse:collapse;
+ border-spacing:0px;
+ width:100%;
+ /*
+ border:0px solid white;
+ border-spacing:1px;
+ padding:0px;
+ width:98%;
+ display: table;
+ */
+}
+
+table.mytable2 {
+ border:1px solid gray;
+ border-collapse:collapse;
+ border-spacing:1px;
+ padding:1px;
+}
+
+
+table.mytable2 td {
+ border:1px solid gray;
+ height:22px;
+ padding-left:3px;
+ padding-right:4px;
+ vertical-align:middle;
+ display: table-cell;
+ border-width: 1px;
+ border-style: outset;
+}
+
+table.mytableNone2 {
+ border:0px solid white;
+ border-collapse:collapse;
+ border-spacing:0px;
+}
+
+table.mytableNone2 td {
+ border:0px solid white;
+ height:22px;
+ padding-left:3px;
+ padding-right:4px;
+ vertical-align:middle;
+}
+
+table.mytableSurvey 
+{
+ border:1px solid white;
+ border-collapse:collapse;
+ border-spacing:0px;
+ width:100%;
+}
+
+table.mytableSurvey td {
+ border:1px solid white;
+ padding-left:0px;
+ padding-right:0px;
+ vertical-align:middle;
+ /*
+ border-width: 0px;
+ padding: 0px;
+ border-style: outset;
+ border-color: #ececec;
+ display: table-cell;
+ -moz-border-radius:0;
+ */
+}
+
+table.mytableSurveyOn
+{
+ border:1px solid lightgray;
+ border-collapse:collapse;
+ border-spacing:0px;
+ width:98%;
+}
+
+table.mytableSurveyOn td {
+ border:1px solid lightgray;
+ padding-left:0px;
+ padding-right:0px;
+ line-height:120%;
+ height:22px;
+ vertical-align:middle;
+}
+
+table.mytableExam {
+ border:1px solid white;
+ border-collapse:collapse;
+ border-spacing:0px;
+ width:98%;
+}
+
+table.mytableExam td {
+ border:1px solid white;
+ padding-left:3px;
+ padding-right:0px;
+ text-align:left;
+ vertical-align:middle;
+}
+
+
+div.outer
+{
+    display: table-cell;
+    border:1px solid orange;
+    text-align:center;
+    line-height:normal;
+    vertical-align:middle; 
+}
+
+div.inner
+{
+    display: table-cell;
+    text-align:center;
+    vertical-align:middle; 
+    border:0px solid green;
+    height:100%;
+}
+
+div.survey
+{
+    display:inline-table;
+    text-align:left;
+    vertical-align:middle; 
+    border:0px solid green;
+    width:800px;
+    height:100%;
+}
+
+
+div.center
+{
+    text-align:center;border:0px solid red;
+    display:inline-table;
+    vertical-align:middle;
+}
+
+div.linepx
+{
+    display:inline-table;
+    margin-left:0px;
+    margin-right:0px;
+    text-align:left;
+    vertical-align:middle; 
+    border:0px solid green;
+    height:3px; 
+    width:100%; 
+}
+
+div.linenopx
+{
+    display:inline-table;
+    margin-left:0px;
+    margin-right:0px;
+    text-align:left;
+    vertical-align:middle; 
+    border:0px solid green;
+    width:100%; 
+}
+
+
+div.DivWindowAbsolute {
+    display: table-cell;
+    border: 1px solid gray;
+    position:absolute;
+    -webkit-box-shadow: 3px 3px 6px #adadad;
+    -moz-box-shadow: 3px 3px 6px #adadad;
+    box-shadow: 3px 3px 6px #adadad;
+    opacity: 1.0;
+    filter: alpha(opacity=1.0);
+    -moz-opacity: 1.0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border-radius: 5px 5px 5px 5px / 5px 5px 5px 5px;
+}
+
+
+a:link {color:#277bff; text-decoration:none}
+a:visited {text-decoration : none; COLOR: #277bff}
+a:active {text-decoration : none; COLOR: #cc5b00;}
+a:hover {text-decoration : underline:none; COLOR: #CC0000}

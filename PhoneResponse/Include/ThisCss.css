@@ -1,0 +1,175 @@
+﻿
+.TableThisTopHeader table {
+    height: 45px;
+    background-color: #012B62;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.TableThisTopHeader td {
+    padding-left:5px;
+    height: 45px;
+    background-color: #012B62;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.DivThisTopHeader {
+    padding:0px;
+    width: 100%;
+    border: 1px solid black;
+    height: 45px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.DivWindow {
+    /*
+    boxdiv = document.createElement("div");
+    boxdiv.setAttribute("id", "openpop_");
+    boxdiv.style.display = "block";
+    boxdiv.style.position = "absolute";
+    boxdiv.style.width = (document.documentElement.clientWidth > width ? width : document.documentElement.clientWidth-20) + "px";
+    boxdiv.style.height = ((document.documentElement.clientHeight-50) > height ? height : (document.documentElement.clientHeight-50)) + "px";
+     */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: 1px solid gray;
+    background-color: white;
+    -webkit-box-shadow: 3px 3px 6px #adadad;
+    -moz-box-shadow: 3px 3px 6px #adadad;
+    box-shadow: 3px 3px 6px #adadad;
+    opacity: 1.0;
+    filter: alpha(opacity=1.0);
+    -moz-opacity: 1.0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border-radius: 5px 5px 5px 5px / 5px 5px 5px 5px;
+}
+
+.MenuLabel2 {
+    padding-left:5px;
+    width: 100%;
+    font-size: 16px;
+    color: black;
+    background-color:#e5e4e4;
+    font-weight:bold;
+    height:25px;
+}
+.MenuLabel3 {
+    width: 100%;
+    font-size: 14px;
+    color: black;
+    height:23px;
+    cursor:pointer;
+    padding-left:3px;
+}
+
+.BodyTop1Label {
+    width:90%;
+    font-size: 25px;
+    color: black;
+    height: 24px;
+    padding-left: 3px;
+    font-weight:bolder;
+}
+
+.BodyTop2Label {
+    font-size: 18px;
+    color: white;
+    padding-left: 3px;
+    width: inherit;
+    vertical-align: middle;
+    height: inherit;
+    font-weight: bold;
+    text-align: center;
+}
+
+.BodyTop3Label {
+    font-size: 18px;
+    color: black;
+    height: 24px;
+    padding-left: 3px;
+    font-weight: bolder;
+}
+
+.BodyNote1 {
+    float: left;
+    width: inherit;
+    height: auto;
+    border: 1px solid gray;
+    font-size: 14px;
+    line-height: 180%;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #F2F2F2;
+    /* padding: 0px 0px 0px 30px; */
+}
+.BodyNote2 {
+    border: 1px solid gray;
+    font-size: 14px;
+    line-height: 180%;
+    //padding-left: 30px;
+    //padding-top: 10px;
+    //padding-bottom: 10px;
+    background-color: #F2F2F2;
+}
+
+.DefaultTable {
+    border-width: 1px;
+    border-spacing: 0px;
+    border-style: outset;
+    border-color: #ececec;
+    border-collapse: collapse;
+    color: black;
+    text-align: center;
+    height: 24px;
+}
+.DefaultTable td {
+    border-width: 1px;
+    border-spacing: 0px;
+    border-style: outset;
+    border-color: #ececec;
+    border-collapse: collapse;
+    color: black;
+    text-align: center;
+    height: 24px;
+}
+
+.DefaultTableNone {
+    border-width: 0px;
+    border-spacing: 0px;
+    border-style: outset;
+    border-color: #ececec;
+    border-collapse: collapse;
+    text-align: center;
+    height: 24px;
+}
+
+.DefaultTableNone td {
+        border-width: 0px;
+        border-spacing: 0px;
+        border-style: outset;
+        border-color: #ececec;
+        border-collapse: collapse;
+        text-align: center;
+        height: 24px;
+}
+
+.DivRowSpace {
+    border: 0px;
+    min-height: 5px;
+    width: inherit;
+}
+
+.DataTableHeader {
+    font-weight: bold;
+    background-color:#efefed;
+    color:black;
+}
