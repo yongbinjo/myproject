@@ -26,8 +26,8 @@ namespace PhoneResponse
             def = new TDefineClass();
             tbc = new TableClass();
 
-            //Response.Write(tbc.InterviewerTable);
-            //Response.End();
+            Response.Write(tbc.InterviewerTable);
+            Response.End();
             sd = def.dbcls.CallSelect("select * from " + tbc.InterviewerTable + " where userid='" + tinterviwerid + "' and username='" + tinterviwername + "'");
             if (sd.HasRows)
             {
